@@ -35,50 +35,6 @@ int main(int argc, char *argv[]) {
     day01a(lines, num_lines);
     day01b(lines, num_lines);
     break;
-  case 2:
-    day02a(lines, num_lines);
-    day02b(lines, num_lines);
-    break;
-  case 3:
-    day03a(lines, num_lines);
-    day03b(lines, num_lines);
-    break;
-  case 4:
-    day04a(lines, num_lines);
-    day04b(lines, num_lines);
-    break;
-  case 5:
-    day05a(lines, num_lines);
-    day05b(lines, num_lines);
-    break;
-  case 6:
-    day06a(lines, num_lines);
-    day06b(lines, num_lines);
-    break;
-  case 7:
-    day07a(lines, num_lines);
-    day07b(lines, num_lines);
-    break;
-  case 8:
-    day08a(lines, num_lines);
-    day08b(lines, num_lines);
-    break;
-  case 9:
-    day09a(lines, num_lines);
-    day09b(lines, num_lines);
-    break;
-  case 10:
-    day10a(lines, num_lines);
-    day10b(lines, num_lines);
-    break;
-  case 11:
-    day11a(lines, num_lines);
-    day11b(lines, num_lines);
-    break;
-  case 12:
-    day12a(lines, num_lines);
-    day12b(lines, num_lines);
-    break;
   default:
     fprintf(stderr, "No implementation for this day\n");
     return EXIT_FAILURE;
